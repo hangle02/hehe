@@ -1,64 +1,47 @@
-html {
-    font-family: Arial, Helvetica, sans-serif;
-    display: inline-block;
-    text-align: center;
-}
-h1 {
-    font-size: 1.8rem;
-    color: white;
-}
-.topnav {
-    overflow: hidden;
-    background-color: #0A1128;
-}
 body {
-    margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
-.content {
-    padding: 50px;
+
+h2, h3, h4 {
+  color: #333;
 }
-.card-grid {
-    max-width: 800px;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    display: grid;
-    grid-gap: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-}
-.card {
-    background-color: white;
-    box-shadow: 2px 2px 12px 1px rgba(140,140,140,.5);
-}
+
 button {
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    border-radius: 4px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
-.onButton{
-    background-color: #1b8a94;
+button:hover {
+  background-color: #45a049;
 }
 
-.offButton{
-    background-color: #5f6c6d;
+input {
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+  width: 90px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
-.connectButton{
-    background-color: #24af37;
+hr {
+  margin: 20px 0;
 }
 
-.disconnectButton{
-    background-color: #d13a30;
-}
-
-.gray-label {
-    color: #bebebe;
-    font-size: 1rem;
-}
-
-.reading {
-    font-size: 1.8rem;
+#status {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #0066cc;
 }
